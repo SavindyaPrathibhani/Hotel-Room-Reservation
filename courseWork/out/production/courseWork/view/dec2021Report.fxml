@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="862.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Dec2021ReportController">
+   <children>
+      <Label prefHeight="92.0" prefWidth="1300.0" style="-fx-background-color: #607cd0;" text="                                           Monthly Income Report of December 2021" textFill="#1b1b1c">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblMonthlyIncome" layoutY="91.0" prefHeight="771.0" prefWidth="1300.0">
+        <columns>
+          <TableColumn fx:id="colHead" prefWidth="765.0" text="HEAD/ ITEM" />
+          <TableColumn fx:id="colCost" minWidth="0.0" prefWidth="534.0" text="COST" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

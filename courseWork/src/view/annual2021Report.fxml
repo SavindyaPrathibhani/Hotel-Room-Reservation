@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="862.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Annual2021ReportController">
+   <children>
+      <Label fx:id="lbl2021Annual" prefHeight="96.0" prefWidth="1600.0" style="-fx-background-color: #62a0d0;" text="                                     2021 Annual Income Report" textFill="#151c21">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblAnnualIncome" layoutY="96.0" prefHeight="766.0" prefWidth="1600.0">
+        <columns>
+          <TableColumn fx:id="colHead" prefWidth="193.99996948242188" text="HEAD" />
+          <TableColumn fx:id="colJan" prefWidth="102.00003051757812" text="January" />
+            <TableColumn fx:id="colFeb" prefWidth="106.0" text="February" />
+            <TableColumn fx:id="colMarch" prefWidth="106.0" text="March" />
+            <TableColumn fx:id="colApril" prefWidth="105.0" text="April" />
+            <TableColumn fx:id="colMay" prefWidth="123.0" text="May" />
+            <TableColumn fx:id="colJune" prefWidth="114.0" text="June" />
+            <TableColumn fx:id="colJuly" prefWidth="122.0" text="July" />
+            <TableColumn fx:id="colAug" prefWidth="125.0" text="August" />
+            <TableColumn fx:id="colSept" prefWidth="132.0" text="September" />
+            <TableColumn fx:id="colOct" prefWidth="108.0" text="October" />
+            <TableColumn fx:id="colNov" prefWidth="129.0" text="November" />
+            <TableColumn fx:id="colDec" prefWidth="131.0" text="December" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
